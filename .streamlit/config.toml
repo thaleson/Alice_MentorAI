@@ -1,5 +1,6 @@
 [theme]
 base="dark"
-primaryColor="#082e8e"
-backgroundColor="#000000"
-secondaryBackgroundColor="#020d2b"
+primaryColor="#006400"  # Verde escuro
+backgroundColor="rgb(14, 17, 23)"  #
+secondaryBackgroundColor="#001E1C"  # Turquesa claro
+textColor="#FFFFFF"  # Branco
