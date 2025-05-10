@@ -1,0 +1,32 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários de execução
+*.tmp
+*.swp
+
+
+
+# Arquivos de configuração pessoal
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências instaladas (mantemos apenas requirements.txt)
+*.egg-info/
+.eggs/
