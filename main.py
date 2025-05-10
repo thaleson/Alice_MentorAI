@@ -6,16 +6,14 @@ from app.interfaces.llm_interface import ask_llm
 st.set_page_config(page_title="Revisão Inteligente", page_icon="📚")
 st.title("🧠 Alice MentorAI ,IA para Revisão de Concursos")
 
-st.markdown(
-    f"""
-    <style>
-    {open("static/styles.css").read()}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# Aplicar estilos de CSS à página (se houver)
+try:
+    with open("static/styles.css") as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+except FileNotFoundError:
+    st.warning("Arquivo de estilo CSS não encontrado!")
 
-
+    
 st.markdown(
     """
     Digite seu resumo ou conteúdo de estudo.  
