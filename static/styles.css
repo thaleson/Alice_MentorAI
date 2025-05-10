@@ -1,11 +1,19 @@
-footer {
-    visibility: hidden;
-}
-
-#MainMenu {
-    visibility: hidden;
-}
-
+/* Esconde o cabeçalho */
 header {
-    visibility: hidden;
+    display: none;
+}
+
+/* Esconde o rodapé */
+footer {
+    display: none;
+}
+
+/* Esconde o menu principal */
+MainMenu {
+    display: none;
+}
+
+/* Esconde a barra lateral (se estiver visível) */
+.sidebar .sidebar-content {
+    display: none;
 }
