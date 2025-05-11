@@ -7,11 +7,12 @@ from PyPDF2 import PdfReader
 import docx
 
 
-st.set_page_config(page_title="Revisão Inteligente", page_icon="📚")
-
 # Configuração da página
 
 st.title("🧠 Alice Revisa, IA para Revisão de Concursos")
+
+st.set_page_config(page_title="Revisão Inteligente", page_icon="📚")
+
 
 # Inicialização do estado da sessão
 if "progress" not in st.session_state:
