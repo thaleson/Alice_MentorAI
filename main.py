@@ -1,4 +1,6 @@
 import streamlit as st
+
+st.set_page_config(page_title="Revisão Inteligente", page_icon="📚")
 import random
 import time
 from app.interfaces.llm_interface import ask_llm
@@ -11,7 +13,6 @@ import docx
 
 st.title("🧠 Alice Revisa, IA para Revisão de Concursos")
 
-st.set_page_config(page_title="Revisão Inteligente", page_icon="📚")
 
 
 # Inicialização do estado da sessão
