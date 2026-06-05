@@ -55,7 +55,7 @@ def save_progress(progress_value):
             cookies["progress"] = str(progress_value)
             cookies.save()
         except Exception as e:
-            st.warning(f"⚠️ Erro ao salvar cookies: {str(e)}"
+            st.warning(f"⚠️ Erro ao salvar cookies: {str(e)}")
 
 if not cookies.ready():
     if not st.session_state.cookie_initialized:
